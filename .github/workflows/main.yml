@@ -34,5 +34,5 @@ jobs:
         ECR_REPOSITORY: lesson-086
         IMAGE_TAG: latest
       run: |
-        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        docker build -t 050752650657.dkr.ecr.ap-southeast-1.amazonaws.com/lesson-086:latest .
+        docker push 050752650657.dkr.ecr.ap-southeast-1.amazonaws.com/lesson-086:latest
